@@ -9,9 +9,9 @@ For every observation the code independently evaluates
 `floor(n * log10(p)) + 1`. All 400,000 values agreed with decimal string
 length. The exact normalized value is digit sum divided by string length.
 
-Prefix means use the first \(N\) exact normalized values. Prefix dispersion is
+Prefix means use the first $N$ exact normalized values. Prefix dispersion is
 Python's `statistics.stdev`, which uses the required sample denominator
-\(N-1\). Each prime's full sequence is computed once and sliced at the seven
+$N-1$. Each prime's full sequence is computed once and sliced at the seven
 cutoffs.
 
 The experiment is deterministic and uses no external data or randomness.

@@ -7,9 +7,9 @@ exponents per prime.
 
 | Column | Meaning |
 |---|---|
-| `prime` | Prime base \(p\), one of the first 50 primes from 2 through 229 |
-| `exponent` | Exponent \(n\), from 1 through 8000 |
-| `digit_sum` | Decimal digit sum \(S(p^n)\) |
+| `prime` | Prime base $p$, one of the first 50 primes from 2 through 229 |
+| `exponent` | Exponent $n$, from 1 through 8000 |
+| `digit_sum` | Decimal digit sum $S(p^n)$ |
 | `digit_count` | Authoritative exact count `len(str(p**n))` |
 | `formula_digit_count` | Independent `floor(n * log10(p)) + 1` check |
 | `normalized_digit_sum_exact` | `digit_sum / digit_count` |
@@ -26,4 +26,4 @@ columns agreed for every tested row.
 - `table1_prefix_sample_std_exact.csv`: the 21 Table 1 values at full computed
   precision.
 
-All standard deviations use denominator \(N-1\).
+All standard deviations use denominator $N-1$.

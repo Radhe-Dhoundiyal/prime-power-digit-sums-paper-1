@@ -1,4 +1,4 @@
-# Prime-Power Digit-Sum Statistics ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Paper 1 Reproducibility Package
+# Prime-Power Digit-Sum Statistics — Paper 1 Reproducibility Package
 
 ## Overview
 
@@ -13,16 +13,16 @@ conjectures.
 
 ## Main statistic
 
-For decimal digit sum \(S(x)\), the paper studies
+For decimal digit sum $S(x)$, the paper studies
 
-\[
+$$
 \widetilde A_p(n)=\frac{S(p^n)}{\lfloor n\log_{10}p\rfloor+1}.
-\]
+$$
 
 The implementation uses `len(str(power))` as the authoritative exact digit
 count and independently validates it against
 `floor(n * log10(p)) + 1`. The older
-\(A_p(n)=S(p^n)/(n\log_{10}p)\) normalization is supplementary and is not used
+$A_p(n)=S(p^n)/(n\log_{10}p)$ normalization is supplementary and is not used
 for the principal results in this package.
 
 ## Results reproduced
@@ -83,12 +83,12 @@ python scripts/run_full_pipeline.py --output-dir smoke --prime-limit 2 --max-exp
 
 ## Official figure ranges
 
-- Figure 1: \(p=2,3,5,7,11\), \(1\le n\le400\).
-- Figure 2: \(p=2,3,5,7,11\), \(1\le N\le2000\).
-- Figure 3: \(p=2,5,11,101,197\) at
-  \(N=50,250,500,1000,2000,4000,8000\).
+- Figure 1: $p=2,3,5,7,11$, $1\le n\le400$.
+- Figure 2: $p=2,3,5,7,11$, $1\le N\le2000$.
+- Figure 3: $p=2,5,11,101,197$ at
+  $N=50,250,500,1000,2000,4000,8000$.
 - Figure 4: the same five primes and cutoffs, using sample prefix standard
-  deviation with denominator \(N-1\).
+  deviation with denominator $N-1$.
 
 Figures 1 and 2 deliberately use shorter ranges to remain interpretable. No
 all-50-prime line plot is included.
@@ -99,8 +99,8 @@ all-50-prime line plot is included.
 - Zero digit-count mismatches.
 - 21/21 Table 1 values reproduced to six decimals.
 - All four figures reproduced numerically.
-- Minimum distance of \(n\log_{10}(p)\) from an integer:
-  \(4.0727\times10^{-7}\) at \(p=7,n=510\).
+- Minimum distance of $n\log_{10}(p)$ from an integer:
+  $4.0727\times10^{-7}$ at $p=7,n=510$.
 
 ## Data availability
 
