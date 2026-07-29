@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prime-power-digit-sums-paper-1"
+version = "1.0.0"
+description = "Reproducibility tools for a computational study of digit-sum statistics of prime powers"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Radhe Dhoundiyal"}]
+dependencies = ["matplotlib==3.8.4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9", "nbformat>=5,<6", "nbclient>=0.10,<1", "ipykernel>=6,<7"]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: full-range recomputation tests"]

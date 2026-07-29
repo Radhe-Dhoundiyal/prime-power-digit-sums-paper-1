@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+title: "Reproducibility Package for A Computational Study of Digit-Sum Statistics of Prime Powers"
+type: software
+authors:
+  - family-names: Dhoundiyal
+    given-names: Radhe
+version: 1.0.0
+license: MIT
+abstract: >-
+  Python code, exact data, figures, and validation records for the Paper 1
+  computational study of normalized decimal digit sums of prime powers.
+keywords:
+  - digit sums
+  - prime powers
+  - computational number theory
+  - reproducibility
+# date-released: TO-BE-ADDED-AFTER-GITHUB-PUBLICATION
+# repository-code: TO-BE-ADDED-AFTER-GITHUB-PUBLICATION
+# doi: TO-BE-ADDED-AFTER-ZENODO-ARCHIVE

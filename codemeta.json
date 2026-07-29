@@ -1,0 +1,22 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Reproducibility Package for A Computational Study of Digit-Sum Statistics of Prime Powers",
+  "description": "Authoritative Python computation, exact data, official figures, and validation records for Paper 1.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Radhe",
+      "familyName": "Dhoundiyal"
+    }
+  ],
+  "version": "1.0.0",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python >=3.11",
+  "license": [
+    "https://spdx.org/licenses/MIT.html",
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "codeRepository": "TO-BE-ADDED-AFTER-GITHUB-PUBLICATION",
+  "datePublished": "TO-BE-ADDED-AFTER-GITHUB-PUBLICATION"
+}

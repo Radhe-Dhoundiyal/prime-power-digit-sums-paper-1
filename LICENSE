@@ -1,0 +1,15 @@
+LICENSING OVERVIEW
+
+Copyright (c) 2026 Radhe Dhoundiyal
+
+Files under src/ and Python scripts are licensed under the MIT License.
+See LICENSE-CODE.
+
+Files under data/, figures/, docs/, and repository documentation are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0) unless otherwise stated. See LICENSE-DATA.
+
+The associated manuscript is intentionally not included in this repository
+and is not covered by these repository licenses.
+
+No rights are asserted here over third-party material.

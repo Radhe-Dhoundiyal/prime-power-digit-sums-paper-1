@@ -1,0 +1,137 @@
+{
+  "paper_title": "A Computational Study of Digit-Sum Statistics of Prime Powers",
+  "author": "Radhe Dhoundiyal",
+  "primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89,
+    97,
+    101,
+    103,
+    107,
+    109,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149,
+    151,
+    157,
+    163,
+    167,
+    173,
+    179,
+    181,
+    191,
+    193,
+    197,
+    199,
+    211,
+    223,
+    227,
+    229
+  ],
+  "maximum_exponent": 8000,
+  "expected_observation_count": 400000,
+  "official_figure_prime_selections": {
+    "figure_1": [
+      2,
+      3,
+      5,
+      7,
+      11
+    ],
+    "figure_2": [
+      2,
+      3,
+      5,
+      7,
+      11
+    ],
+    "figure_3": [
+      2,
+      5,
+      11,
+      101,
+      197
+    ],
+    "figure_4": [
+      2,
+      5,
+      11,
+      101,
+      197
+    ]
+  },
+  "official_figure_ranges": {
+    "figure_1_exponents": [
+      1,
+      400
+    ],
+    "figure_2_prefix_cutoffs": [
+      1,
+      2000
+    ],
+    "figure_3_cutoffs": [
+      50,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000
+    ],
+    "figure_4_cutoffs": [
+      50,
+      250,
+      500,
+      1000,
+      2000,
+      4000,
+      8000
+    ]
+  },
+  "cutoffs": [
+    50,
+    250,
+    500,
+    1000,
+    2000,
+    4000,
+    8000
+  ],
+  "normalization_definitions": {
+    "exact_mathematical": "S(p^n) / (floor(n log10(p)) + 1)",
+    "exact_implementation": "S(p^n) / len(str(p^n))",
+    "approximate_supplementary": "S(p^n) / (n log10(p))"
+  },
+  "standard_deviation_convention": "sample standard deviation with denominator N - 1",
+  "generation_timestamp_utc": "2026-07-29T17:15:49.495897+00:00",
+  "python_version": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "matplotlib": "3.8.4"
+  }
+}
