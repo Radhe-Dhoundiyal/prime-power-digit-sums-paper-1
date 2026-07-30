@@ -111,8 +111,18 @@ used by Table 1 and Figures 3-4. No randomness or external data are involved.
 ## Citation
 
 Use `CITATION.cff` for software citation metadata. The public repository is
-[https://github.com/Radhe-Dhoundiyal/prime-power-digit-sums-paper-1](https://github.com/Radhe-Dhoundiyal/prime-power-digit-sums-paper-1). The release date is 2026-07-30. A DOI will be added after
-Zenodo archiving.
+[https://github.com/Radhe-Dhoundiyal/prime-power-digit-sums-paper-1](https://github.com/Radhe-Dhoundiyal/prime-power-digit-sums-paper-1),
+and the release date is 2026-07-30.
+
+## Archived release
+
+Version 1.0.0 is archived on Zenodo:
+
+- Version-specific DOI: [10.5281/zenodo.21702236](https://doi.org/10.5281/zenodo.21702236)
+- DOI for all versions: [10.5281/zenodo.21702235](https://doi.org/10.5281/zenodo.21702235)
+
+The version-specific DOI identifies the exact v1.0.0 archive. The all-versions
+DOI resolves to the repository's continuing Zenodo record.
 
 ## Licensing
 
