@@ -4,7 +4,7 @@ The old PNGs were first verified byte-for-byte against their documented
 embedded notebook outputs. Numerical comparison then reconstructed the old
 formula-based exact statistic from the exported `digit_sum` and
 `formula_digit_count` columns and compared it with the new string-length
-authoritative statistic.
+statistic used for the final calculations.
 
 | Figure | Old source | New output | Parameters | Numerical values | Notation change | Status |
 |---|---|---|---|---|---|---|

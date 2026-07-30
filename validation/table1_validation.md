@@ -1,6 +1,6 @@
 # Table 1 Validation
 
-New values use `len(str(power))` as the authoritative digit count.
+The calculations use `len(str(power))` for the digit count.
 The manuscript supplies six displayed decimal places; no higher-precision
 manuscript values are available for a full-precision equality comparison.
 

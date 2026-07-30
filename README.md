@@ -2,14 +2,15 @@
 
 ## Overview
 
-This repository supports *A Computational Study of Digit-Sum Statistics of
-Prime Powers* by Radhe Dhoundiyal. It contains the authoritative Python
-implementation, 400,000 exact observations, derived tables, four official
-figures, validation records, tests, and a clean educational notebook.
+This repository contains the code and data used for the computational
+experiments in my paper, *A Computational Study of Digit-Sum Statistics of
+Prime Powers*. The calculations cover the first 50 primes, from 2 through 229,
+and exponents up to 8000. The repository includes 400,000 observations and
+reproduces Table 1 and Figures 1-4. It also includes the tests, validation
+records, and a notebook showing the reproduction workflow.
 
-The empirical scope is the first 50 primes, from 2 through 229, and exponents
-1 through 8000. The purpose is reproducibility, not proof of the paper's
-conjectures.
+This is an empirical study. The calculations support the discussion in the
+paper, but they do not prove its conjectures.
 
 ## Main statistic
 
@@ -19,35 +20,34 @@ $$
 \widetilde A_p(n)=\frac{S(p^n)}{\lfloor n\log_{10}p\rfloor+1}.
 $$
 
-The implementation uses `len(str(power))` as the authoritative exact digit
-count and independently validates it against
-`floor(n * log10(p)) + 1`. The older
+The final calculations use `len(str(power))` for the digit count and compare
+it independently with `floor(n * log10(p)) + 1`. The older
 $A_p(n)=S(p^n)/(n\log_{10}p)$ normalization is supplementary and is not used
-for the principal results in this package.
+for the results reported in the paper.
 
 ## Results reproduced
 
-The package reproduces:
+The repository reproduces:
 
 - all 21 displayed values in Table 1;
-- Figures 1-4 with manuscript-consistent notation;
-- the full 50-prime, 8000-exponent experiment.
+- Figures 1-4 with the notation used in the paper;
+- the full experiment covering 50 primes and 8000 exponents per prime.
 
 These computations provide finite empirical evidence. They do not prove the
 paper's conjectures.
 
 ## Repository contents
 
-- `src/`: authoritative computation, plotting, paths, and validation functions.
-- `scripts/`: quick verification and reproduction commands.
-- `data/`: full compressed observations and derived exact summaries.
-- `figures/paper/`: four corrected official figures.
-- `notebooks/`: clean top-to-bottom reproducibility notebook.
-- `validation/`: scientific validation and traceability records.
-- `docs/`: methodology, data, figures, normalization, and workflow details.
-- `tests/`: fast unit and artifact tests; no default full recomputation.
+- `src/`: code used for the calculations, figures, and validation checks.
+- `scripts/`: commands for verification and reproduction.
+- `data/`: the complete compressed observations and derived summaries.
+- `figures/paper/`: the four figures used for the paper.
+- `notebooks/`: a notebook showing the reproduction workflow from start to finish.
+- `validation/`: validation and cross-checking records.
+- `docs/`: notes on the method, data, figures, normalization, and workflow.
+- `tests/`: unit and output checks that do not repeat the full computation.
 
-See `MANIFEST.md` for artifact-level details.
+See `MANIFEST.md` for a repository file guide.
 
 ## Quick start
 
@@ -90,7 +90,7 @@ python scripts/run_full_pipeline.py --output-dir smoke --prime-limit 2 --max-exp
 - Figure 4: the same five primes and cutoffs, using sample prefix standard
   deviation with denominator $N-1$.
 
-Figures 1 and 2 deliberately use shorter ranges to remain interpretable. No
+Figures 1 and 2 use shorter ranges so that the plots remain readable. No
 all-50-prime line plot is included.
 
 ## Validation summary
@@ -122,9 +122,9 @@ documentation, and repository documentation are licensed under CC BY 4.0
 
 ## Associated manuscript
 
-The manuscript is intentionally not included. An arXiv identifier will be added after submission:
-TO-BE-ADDED-AFTER-ARXIV-SUBMISSION. This repository supports the paper but is not itself
-the manuscript.
+The manuscript is not included in this repository. An arXiv identifier will
+be added after submission: TO-BE-ADDED-AFTER-ARXIV-SUBMISSION. The repository
+supports the paper but is not a copy of the manuscript.
 
 ## Limitations
 
@@ -135,3 +135,6 @@ uniform digit frequencies, or equidistribution of digit blocks.
 ## Contact
 
 Radhe Dhoundiyal
+
+For questions, corrections, or reproducibility issues, please open a GitHub
+issue.

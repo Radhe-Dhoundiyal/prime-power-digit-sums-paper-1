@@ -1,13 +1,13 @@
 # Normalization Notes
 
-The authoritative statistic is
+The statistic used for the final calculations is
 
 $$
 \widetilde A_p(n)=\frac{S(p^n)}{\ell_p(n)},\qquad
 \ell_p(n)=\lfloor n\log_{10}p\rfloor+1.
 $$
 
-The implementation authority for $\ell_p(n)$ is decimal string length. The
+The code calculates $\ell_p(n)$ from the decimal string length. The
 logarithmic expression remains the mathematical definition and is evaluated
 independently for every observation.
 

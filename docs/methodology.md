@@ -3,7 +3,7 @@
 For each of the first 50 primes, powers are generated iteratively from
 `power = 1` by repeated multiplication. Python integers provide arbitrary
 precision. Each power is converted once to decimal text; this representation
-supplies both its digit sum and authoritative digit count.
+supplies both its digit sum and the digit count used in the calculations.
 
 For every observation the code independently evaluates
 `floor(n * log10(p)) + 1`. All 400,000 values agreed with decimal string

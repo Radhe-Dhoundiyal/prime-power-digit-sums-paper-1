@@ -1,22 +1,22 @@
-# Public Artifact Manifest
+# Repository File Guide
 
-## Root metadata and policy
+## Repository information
 
-- `README.md`: package overview and user workflows.
+- `README.md`: overview and reproduction instructions.
 - `LICENSE`, `LICENSE-CODE`, `LICENSE-DATA`: licensing scope, MIT code license,
   and CC BY 4.0 data/documentation license.
 - `CITATION.cff`, `codemeta.json`: citation and software metadata.
 - `requirements.txt`, `pyproject.toml`: runtime and test environment metadata.
-- `.gitignore`, `.gitattributes`: Git-readiness controls.
-- `CHANGELOG.md`, `CONTRIBUTING.md`: release history and contribution rules.
-- `MANIFEST.md`: this public artifact map.
-- `checksums.sha256`: repository-relative integrity manifest.
+- `.gitignore`, `.gitattributes`: files excluded from Git and text-file settings.
+- `CHANGELOG.md`, `CONTRIBUTING.md`: change history and contribution guidance.
+- `MANIFEST.md`: this repository file guide.
+- `checksums.sha256`: repository-relative file checksums.
 
-## Authoritative source
+## Source used for the final calculations
 
-- `src/__init__.py`: public exports.
+- `src/__init__.py`: exported functions.
 - `src/paths.py`: repository-relative paths.
-- `src/compute_statistics.py`: authoritative integer computation and exports.
+- `src/compute_statistics.py`: integer calculations and data exports.
 - `src/generate_paper_figures.py`: official Figure 1-4 generator.
 - `src/validate_results.py`: fast dataset, Table 1, figure, and checksum checks.
 
@@ -39,8 +39,8 @@
 - `data/selected_prefix_means_exact.csv`: Figure 3 numerical values.
 - `data/selected_prefix_sample_std_exact.csv`: Figure 4 numerical values.
 - `data/table1_prefix_sample_std_exact.csv`: Table 1 numerical values.
-- `data/experiment_parameters.json`: validated scientific and environment
-  parameter record.
+- `data/experiment_parameters.json`: calculation parameters and environment
+  record.
 
 ## Official figures
 
@@ -49,16 +49,16 @@
 - `figures/paper/figure3_prefix_mean_cutoffs_exact.png`
 - `figures/paper/figure4_prefix_std_exact.png`
 
-## Scientific validation
+## Validation records
 
 - `validation/full_range_validation.md`
 - `validation/table1_validation.md`
 - `validation/figure_validation.md`
 - `validation/manuscript_traceability.md`
 - `validation/expected_table1.csv`
-- `validation/scientific_checksums.sha256`: historical checksum evidence from
-  the separate scientific validation pass; public-repository integrity uses
-  root `checksums.sha256`.
+- `validation/scientific_checksums.sha256`: checksum evidence from the
+  separate scientific validation pass; repository file integrity uses the root
+  `checksums.sha256`.
 
 ## Documentation
 

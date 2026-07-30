@@ -1,4 +1,4 @@
-# Reproducibility Workflows
+# Reproducing the Results
 
 ## Quick workflow
 
@@ -21,7 +21,7 @@ The default recomputes all 400,000 powers, checks both digit-count methods,
 exports all data products, regenerates Figures 1-4, and prints runtime and
 PASS/FAIL status.
 
-For a reduced pathway test:
+For a smaller test of the same workflow:
 
 ```text
 python scripts/run_full_pipeline.py --output-dir smoke --prime-limit 2 --max-exponent 50 --skip-figures
