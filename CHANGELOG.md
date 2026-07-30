@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 - TO-BE-ADDED-AFTER-GITHUB-PUBLICATION
+## 1.0.0 - 2026-07-30
 
 - Added the validated 400,000-row exact dataset.
 - Added authoritative Python computation and quick reproduction tools.
