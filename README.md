@@ -132,9 +132,9 @@ documentation, and repository documentation are licensed under CC BY 4.0
 
 ## Associated manuscript
 
-The manuscript is not included in this repository. An arXiv identifier will
-be added after submission: TO-BE-ADDED-AFTER-ARXIV-SUBMISSION. The repository
-supports the paper but is not a copy of the manuscript.
+The manuscript is not included in this repository. This release provides
+code, data, and figures for reproducibility; it is not a manuscript archive.
+No arXiv identifier is listed for this release.
 
 ## Limitations
 
