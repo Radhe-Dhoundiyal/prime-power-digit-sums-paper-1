@@ -9,6 +9,8 @@ and exponents up to 8000. The repository includes 400,000 observations and
 reproduces Table 1 and Figures 1-4. It also includes the tests, validation
 records, and a notebook showing the reproduction workflow.
 
+**Read the paper:** [A Computational Study of Digit-Sum Statistics of Prime Powers (Preprints.org, v1)](https://www.preprints.org/manuscript/202609.2580).
+
 This is an empirical study. The calculations support the discussion in the
 paper, but they do not prove its conjectures.
 
@@ -132,8 +134,9 @@ documentation, and repository documentation are licensed under CC BY 4.0
 
 ## Associated manuscript
 
-The manuscript is not included in this repository. This release provides
-code, data, and figures for reproducibility; it is not a manuscript archive.
+The manuscript is publicly available as a [Preprints.org preprint (v1)](https://www.preprints.org/manuscript/202609.2580).
+It is not included in this repository. This release provides code, data, and
+figures for reproducibility; it is not a manuscript archive.
 No arXiv identifier is listed for this release.
 
 ## Limitations
